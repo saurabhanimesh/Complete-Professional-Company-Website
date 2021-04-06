@@ -1,0 +1,4997 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-image: url('sbmain5.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(0, 0, 0, 1); */
+
+}
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('Pinwheel.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  height: 85.6px;
+
+  /* height: 854.6px;  */
+  /* ye height isliye diye kyuki nahi dete to do sections ke bich ek white sapce aajaaraha tha */
+  /* width: 100%;
+  height: 100%; */
+  /* background-color: rgba(43, 42, 42, 0.2); */
+}
+
+#body2{
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+#myMainVideo{
+  display: block;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   top:0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   /* height: 854.6px;  */
+   z-index: -1;
+}
+
+.navbar{
+position: fixed;
+background-color: rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: row;
+justify-content: center;
+/* left: 28%; */
+width: 100%;
+z-index: 2;
+flex-wrap: wrap;
+}
+
+.navlist{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+.navbar .navlist li{
+list-style: none;
+padding: 30px;
+}
+
+.navbar .navlist li .navthing{
+/* font-family: 'Carter One', cursive; */
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+cursor: pointer;
+/* opacity: 0.7; */
+}
+
+
+.dropdown1{
+position: relative;
+display: inline-block;
+}
+
+.dropdown1:hover{
+ background-color: #3e4595;
+
+}
+
+.dropdown2:hover{
+background-color: #3e4595;
+}
+
+.dropdown3:hover{
+background-color: #3e4595;
+}
+
+.dropdown4:hover{
+background-color: #3e4595;
+}
+
+.dropdown5:hover{
+background-color: #3e4595;
+}
+
+.dropdown2{
+
+position: relative;
+display: inline-block;
+}
+
+.dropdown3{
+position: relative;
+display: inline-block;
+}
+
+.dropdown4{
+position: relative;
+display: inline-block;
+}
+
+.dropdown5{
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content1{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(43, 42, 42, 0.2);
+}
+
+.dropdown-content2{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+}
+
+.dropdown-content3{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content4{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content5{
+display: none;
+position: absolute;
+background-color:black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 a{
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content2 a {
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content3 a {
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content4 a{
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content5 a{
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #f3933f;}
+.dropdown-content2 a:hover {background-color: #f3933f;}
+.dropdown-content3 a:hover {background-color: #f3933f;}
+.dropdown-content4 a:hover {background-color: #f3933f;}
+.dropdown-content5 a:hover {background-color: #f3933f;}
+
+
+.dropdown2:hover .dropdown-content2{display: block;}
+.dropdown3:hover .dropdown-content3{display: block;}
+.dropdown4:hover .dropdown-content4{display: block;}
+.dropdown5:hover .dropdown-content5{display: block;}
+
+
+
+.logonav{
+position: fixed;
+left: 20px;
+top: 2px;
+/* display: flex;
+flex-direction: row;
+justify-content: flex-end; */
+/* transform: translateX(1300px); */
+z-index: 3;
+}
+
+.logonav img{
+height: 98px;
+}
+
+
+@media only screen and (max-width: 1100px){
+
+header{
+margin: 0;
+padding: 0;
+/* height: 854.6px;  */
+/* ye height isliye diye kyuki nahi dete to do sections ke bich ek white sapce aajaaraha tha */
+/* width: 100%;
+height: 100%; */
+/* background-color: rgba(43, 42, 42, 0.4); */
+}
+
+#myMainVideo{
+  display: block;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   top:0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   /* height: 854.6px;  */
+   z-index: -1;
+}
+
+.navbar{
+align-items: center;
+justify-content: center;
+position: fixed;
+background-color: rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* left: 28%; */
+width: 100%;
+z-index: 2;
+flex-wrap: wrap;
+}
+
+.navlist{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+.navbar .navlist li{
+list-style: none;
+padding: 30px;
+}
+
+.navbar .navlist li .navthing{
+/* font-family: 'Carter One', cursive; */
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+cursor: pointer;
+/* opacity: 0.7; */
+}
+
+
+.dropdown1{
+position: relative;
+display: inline-block;
+}
+
+.dropdown1:hover{
+ background-color: #3e4595;
+
+}
+
+.dropdown2:hover{
+background-color: #3e4595;
+}
+
+.dropdown3:hover{
+background-color: #3e4595;
+}
+
+.dropdown4:hover{
+background-color: #3e4595;
+}
+
+.dropdown5:hover{
+background-color: #3e4595;
+}
+
+.dropdown2{
+
+position: relative;
+display: inline-block;
+}
+
+.dropdown3{
+position: relative;
+display: inline-block;
+}
+
+.dropdown4{
+position: relative;
+display: inline-block;
+}
+
+.dropdown5{
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content1{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(43, 42, 42, 0.2);
+}
+
+.dropdown-content2{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+}
+
+.dropdown-content3{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content4{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content5{
+display: none;
+position: absolute;
+background-color:black;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 a{
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content2 a {
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content3 a {
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content4 a{
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content5 a{
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #f3933f;}
+.dropdown-content2 a:hover {background-color: #f3933f;}
+.dropdown-content3 a:hover {background-color: #f3933f;}
+.dropdown-content4 a:hover {background-color: #f3933f;}
+.dropdown-content5 a:hover {background-color: #f3933f;}
+
+
+.dropdown2:hover .dropdown-content2{display: block;}
+.dropdown3:hover .dropdown-content3{display: block;}
+.dropdown4:hover .dropdown-content4{display: block;}
+.dropdown5:hover .dropdown-content5{display: block;}
+
+
+
+.logonav{
+display: none;
+position: static;
+left: 20px;
+top: 2px;
+/* display: flex;
+flex-direction: row;
+justify-content: flex-end; */
+/* transform: translateX(1300px); */
+z-index: 3;
+}
+
+.logonav img{
+height: 98px;
+}
+}
+
+@media only screen and (max-width: 850px)
+{
+.logonav img{
+height: 78px;
+}
+
+.logonav{
+display: none;
+position: static;
+left: 20px;
+top: 8px;
+/* display: flex;
+flex-direction: row;
+justify-content: flex-end; */
+/* transform: translateX(1300px); */
+z-index: 3;
+}
+
+.navbar{
+align-items: center;
+justify-content: center;
+position: fixed;
+background-color: rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* left: 28%; */
+width: 100%;
+z-index: 2;
+flex-wrap: wrap;
+}
+
+.navlist{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+.navbar .navlist li{
+list-style: none;
+padding: 30px;
+}
+
+.navbar .navlist li .navthing{
+/* font-family: 'Carter One', cursive; */
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+/* opacity: 0.7; */
+}
+
+}
+
+
+
+@media only screen and (max-width: 554px)
+{
+.logonav img{
+height: 78px;
+}
+
+.logonav{
+display: none;
+position: static;
+left: 20px;
+top: 8px;
+/* display: flex;
+flex-direction: row;
+justify-content: flex-end; */
+/* transform: translateX(1300px); */
+z-index: 3;
+}
+
+.navbar{
+align-items: center;
+justify-content: center;
+position: fixed;
+background-color: rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* left: 28%; */
+width: 100%;
+z-index: 2;
+flex-wrap: wrap;
+}
+
+.navlist{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+.navbar .navlist li{
+list-style: none;
+padding: 13px;
+}
+
+.navbar .navlist li .navthing{
+/* font-family: 'Carter One', cursive; */
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 12px;
+text-decoration: none;
+cursor: pointer;
+/* opacity: 0.7; */
+}
+
+}
+
+
+@media only screen and (max-width: 370px)
+{
+.logonav img{
+height: 78px;
+}
+
+.logonav{
+display: none;
+position: static;
+left: 20px;
+top: 8px;
+/* display: flex;
+flex-direction: row;
+justify-content: flex-end; */
+/* transform: translateX(1300px); */
+z-index: 3;
+}
+
+.navbar{
+align-items: center;
+justify-content: center;
+position: fixed;
+background-color: rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* left: 28%; */
+width: 100%;
+z-index: 2;
+flex-wrap: wrap;
+}
+
+.navlist{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+.navbar .navlist li{
+list-style: none;
+padding: 10px;
+}
+
+.navbar .navlist li .navthing{
+/* font-family: 'Carter One', cursive; */
+font-family: 'Gabriela', serif;
+font-weight: bold;
+color: white;
+font-weight: bold;
+font-size: 10px;
+text-decoration: none;
+cursor: pointer;
+/* opacity: 0.7; */
+}
+
+
+}
+
+/* navbar overr */
+
+
+
+.signageboardheadsection{
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* margin-bottom: 40px; */
+}
+
+.signageboardhead{
+  flex-wrap: wrap;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.signageboardhead h1{
+  color: white;
+  font-family: 'Arapey', serif;
+    font-weight: bold;
+    color: white;
+  font-size: 60px;
+}
+
+#sbbox1imagea0{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea0:hover{
+  transform: scale(1.065);
+}
+
+#sbbox1image0{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea1{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea1:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image1{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea2{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea2:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image2{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea3{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea3:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image3{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea4{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea4:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image4{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea5{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea5:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image5{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea6{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea6:hover{
+  transform: scale(1.065);
+}
+
+#sbbox1image6{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea7{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea7:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image7{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea8{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea8:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image8{
+  width: 250px;
+  height: 250px;
+}
+
+#sbbox1imagea9{
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagea9:hover{
+  transform: scale(1.065);
+
+}
+
+#sbbox1image9{
+  width: 250px;
+  height: 250px;
+}
+
+#signageboardoptionssectionx{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+}
+
+@media only screen and (max-width:600px){
+  .signageboardhead{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .signageboardhead h1{
+    color: white;
+    font-family: 'Arapey', serif;
+      font-weight: bold;
+      color: white;
+    font-size: 40px;
+  }
+
+  #sbbox1image0{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image1{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image2{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image3{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image4{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image5{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image6{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image7{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image8{
+    width: 150px;
+    height: 150px;
+  }
+
+  #sbbox1image9{
+    width: 150px;
+    height: 150px;
+  }
+
+}
+
+
+@media only screen and (max-width:400px){
+  .signageboardhead{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .signageboardhead h1{
+    color: white;
+    font-family: 'Arapey', serif;
+      font-weight: bold;
+      color: white;
+    font-size: 30px;
+  }
+
+}
+
+
+
+
+/* SERVICE SELECTIONS KHATAM */
+
+
+#signageboardindividualdetail{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+
+}
+
+
+
+#sbbox1x{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax{
+  cursor: pointer;
+}
+
+#aboutdivsb{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+#sbbox1x2{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0,0.6);
+}
+
+#sbbox1headx2{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x2{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex2{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex2:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax2{
+  cursor: pointer;
+}
+
+#aboutdivsb2{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb2{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb2{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb2{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+#sbbox1x3{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx3{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x3{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex3{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex3:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax3{
+  cursor: pointer;
+}
+
+#aboutdivsb3{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb3{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb3{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb3{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+#sbbox1x4{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx4{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x4{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex4{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex4:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax4{
+  cursor: pointer;
+}
+
+#aboutdivsb4{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb4{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb4{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb4{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+#sbbox1x5{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx5{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x5{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex5{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex5:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax5{
+  cursor: pointer;
+}
+
+#aboutdivsb5{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb5{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb5{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb5{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+#sbbox1x6{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx6{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x6{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex6{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex6:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax6{
+  cursor: pointer;
+}
+
+#aboutdivsb6{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb6{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb6{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb6{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+#sbbox1x7{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx7{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x7{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex7{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex7:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax7{
+  cursor: pointer;
+}
+
+#aboutdivsb7{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb7{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb7{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+}
+
+#button2sb7{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+#sbbox1x8{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx8{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x8{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex8{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex8:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax8{
+  cursor: pointer;
+}
+
+#aboutdivsb8{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb8{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb8{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb8{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+
+#sbbox1x9{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx9{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x9{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex9{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex9:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax9{
+  cursor: pointer;
+}
+
+#aboutdivsb9{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb9{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb9{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+}
+
+#button2sb9{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+
+#sbbox1x10{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#sbbox1headx10{
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+  font-size: 20px;
+}
+
+#sbbox1head2x10{
+  margin: 0;
+  font-family: 'Arapey', serif;
+  font-weight: bolder;
+  color: white;;
+  font-size: 55px;
+}
+
+#sbbox1imagex10{
+  width: 500px;
+  height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+
+#sbbox1imagex10:hover{
+  transform: scale(1.01);
+}
+
+#sbbox1imageax10{
+  cursor: pointer;
+}
+
+#aboutdivsb10{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#buttonsdivsb10{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button1sb10{
+  background: none;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 15px;
+  font-family: 'Ovo', serif;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+#button2sb10{
+  font-family: 'Arapey', serif;
+
+  height: 40px;
+  width: 200px;
+  background: none;
+   border-width: 3px;
+   border-color: white;
+   border-radius: 15px;
+   font-family: 'Ovo', serif;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   outline: none;
+
+}
+
+
+@media only screen and (max-width: 1020px)
+{
+  #signageboardindividualdetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+  }
+
+  #sbbox1x{
+    padding: 30px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+
+  }
+  
+  #button2sb{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x2{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0,0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx2{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x2{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex2{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex2:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb2{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb2{
+    font-family: 'Arapey', serif;
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  }
+  
+  
+  #sbbox1x3{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx3{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x3{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex3{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex3:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb3{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb3{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x4{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx4{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x4{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex4{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex4:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb4{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb4{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x5{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx5{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x5{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: #ffffff;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex5{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex5:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb5{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb5{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb5{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  #sbbox1x6{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx6{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x6{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex6{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex6:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb6{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb6{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb6{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb6{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  #sbbox1x7{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx7{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x7{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex7{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex7:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb7{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb7{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb7{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb7{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x8{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx8{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x8{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex8{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex8:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb8{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb8{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb8{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb8{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  
+  #sbbox1x9{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx9{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x9{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex9{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex9:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb9{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb9{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb9{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb9{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  
+  #sbbox1x10{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx10{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x10{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 15px;
+  }
+  
+  #sbbox1imagex10{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex10:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+  }
+  
+  #aboutdivsb10{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb10{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb10{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb10{
+    font-family: 'Arapey', serif;
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 466px)
+{
+  #signageboardindividualdetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+  }
+
+  #sbbox1x{
+    padding: 30px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+
+  }
+  
+  #button2sb{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x2{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0,0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx2{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x2{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex2{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex2:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb2{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb2{
+    font-family: 'Arapey', serif;
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  }
+  
+  
+  #sbbox1x3{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx3{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x3{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex3{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex3:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb3{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb3{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x4{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx4{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x4{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex4{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex4:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb4{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb4{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x5{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx5{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x5{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: #ffffff;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex5{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex5:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb5{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb5{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb5{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  #sbbox1x6{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx6{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x6{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex6{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex6:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb6{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb6{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb6{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb6{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  #sbbox1x7{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx7{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x7{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex7{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex7:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb7{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb7{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb7{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb7{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x8{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx8{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x8{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex8{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex8:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb8{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb8{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb8{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb8{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  
+  #sbbox1x9{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx9{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x9{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex9{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex9:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb9{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb9{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb9{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb9{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  
+  #sbbox1x10{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx10{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x10{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 15px;
+  }
+  
+  #sbbox1imagex10{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex10:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+  }
+  
+  #aboutdivsb10{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb10{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb10{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb10{
+    font-family: 'Arapey', serif;
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 366px)
+{
+  #signageboardindividualdetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+  }
+
+  #sbbox1x{
+    padding: 0px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+
+  }
+  
+  #button2sb{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x2{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0,0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx2{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x2{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex2{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex2:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb2{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb2{
+    font-family: 'Arapey', serif;
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  }
+  
+  
+  #sbbox1x3{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx3{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x3{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex3{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex3:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb3{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb3{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x4{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx4{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x4{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex4{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex4:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb4{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb4{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x5{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx5{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x5{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: #ffffff;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex5{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex5:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb5{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb5{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb5{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  #sbbox1x6{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx6{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x6{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex6{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex6:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb6{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb6{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb6{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb6{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  #sbbox1x7{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx7{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x7{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex7{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex7:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb7{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb7{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb7{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb7{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  #sbbox1x8{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx8{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x8{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex8{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex8:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb8{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb8{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb8{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  
+  
+  }
+  
+  #button2sb8{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  
+  #sbbox1x9{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx9{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x9{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 45px;
+  }
+  
+  #sbbox1imagex9{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex9:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #aboutdivsb9{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb9{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb9{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb9{
+    font-family: 'Arapey', serif;
+  
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  
+  }
+  
+  
+  
+  #sbbox1x10{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #sbbox1headx10{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+      color: white;
+    font-size: 13px;
+  }
+  
+  #sbbox1head2x10{
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-weight: bolder;
+    color: white;;
+    font-size: 15px;
+  }
+  
+  #sbbox1imagex10{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sbbox1imagex10:hover{
+    transform: scale(1.01);
+  }
+  
+  #sbbox1imageax10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+  }
+  
+  #aboutdivsb10{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonsdivsb10{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #button1sb10{
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 15px;
+    font-family: 'Ovo', serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  #button2sb10{
+    font-family: 'Arapey', serif;
+    height: 30px;
+    width: 100px;
+    background: none;
+     border-width: 3px;
+     border-color: white;
+     border-radius: 15px;
+     font-family: 'Ovo', serif;
+     color: white;
+     font-weight: bolder;
+     cursor: pointer;
+     outline: none;
+  }
+
+}
+
+
+#contacthome{
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.92);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+#contactdetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+
+#contactlogo{
+  height: 150px;
+  width: 300px;
+  margin: 0;
+}
+
+#contactaddress{
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Trocchi', serif;
+  color: white;
+}
+
+#contactphone{
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Trocchi', serif;
+  color: white;
+}
+
+#contactemail{
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Trocchi', serif;
+  color: white;
+}
+
+#socialHandlesx{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.handlesx:hover{
+  transform: scale(1.2);
+ }
+
+#facebookhandleimagex{
+  margin-right: 10px;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+}
+
+#instahandleimagex{
+  margin-right: 10px;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+}
+
+
+#crcontent{
+  font-family: 'Trocchi', serif;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+}
+
+
+@media only screen and (max-width:700px)
+{
+
+  #contacthome{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.92);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  #contactdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #contactlogo{
+    height: 150px;
+    width: 300px;
+    margin: 0;
+  }
+  
+  #contactaddress{
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Trocchi', serif;
+    color: white;
+  }
+  
+  #contactphone{
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Trocchi', serif;
+    color: white;
+  }
+  
+  #contactemail{
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Trocchi', serif;
+    color: white;
+  }
+  
+  #socialHandlesx{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .handlesx:hover{
+    transform: scale(1.2);
+   }
+  
+  #facebookhandleimagex{
+    margin-right: 10px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  #instahandleimagex{
+    margin-right: 10px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  #crcontent{
+    font-family: 'Trocchi', serif;
+    font-size: 10px;
+    color: white;
+    margin: 0;
+  }
+
+}
+
+
+@media only screen and (max-width:525px)
+{
+  #contacthome{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.92);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  #contactdetails{
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #contactlogo{
+    height: 100px;
+    width: 200px;
+    margin: 0;
+  }
+  
+  #contactaddress{
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Trocchi', serif;
+    color: white;
+  }
+  
+  #contactphone{
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Trocchi', serif;
+    color: white;
+  }
+  
+  #contactemail{
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Trocchi', serif;
+    color: white;
+  }
+  
+  #socialHandlesx{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .handlesx:hover{
+    transform: scale(1.2);
+   }
+  
+  #facebookhandleimagex{
+    margin-right: 10px;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  #instahandleimagex{
+    margin-right: 10px;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  #crcontent{
+    font-family: 'Trocchi', serif;
+    font-size: 7px;
+    color: white;
+    margin: 0;
+  }
+
+}
+
+
+

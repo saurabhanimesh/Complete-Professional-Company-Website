@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttam Glow Sign - Home</title>
+    <link rel="stylesheet" href="ugstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-storage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body onload="myFunction()">
+    <div id="loading"></div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logonav">
+                <img src="LOGOMAIN.png" alt="Logo">
+            </div>
+            <div class="navlist">
+                <li class="dropdown1">
+                    <a class="navthing" id="navthing1" href='/'>Home</a>
+                    <div class="dropdown-content1">
+                        <a href="/signageboard">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="dropdown2">
+                    <a class="navthing" id="navthing2" href=#services>Services</a>
+                    <div class="dropdown-content2">
+                        <a href="/signageboard">Signage Boards</a>
+                        <a href="/branding">Branding</a>
+                        <a href="/ad">Advertising For You</a>
+                        <a href="/printing">Printing</a>
+                        <a href="/customprinting">Customize Printing</a>
+                    </div>
+                </li>
+                <li class="dropdown3">
+                    <a class="navthing" id="navthing3" href=#project>Projects</a>
+                    <div class="dropdown-content3">
+                        <a href="/signageboardproject">Signage Boards</a>
+                        <a href="/brandingproject">Branding</a>
+                        <a href="/adproject">Advertising For You</a>
+                        <a href="/printingproject">Printing</a>
+                        <a href="/customprintingproject">Customize Printing</a>
+                    </div>
+                </li>
+                <li class="dropdown4">
+                    <a class="navthing" id="navthing4" href=#buy>Shop</a>
+                    <!-- <div class="dropdown-content4">
+                        <a href="#">Signage Boards</a>
+                        <a href="#">Branding</a>
+                        <a href="#">Advertising For You</a>
+                        <a href="#">Printing</a>
+                        <a href="#">Customize Printing</a>
+                    </div> -->
+                </li>
+                <li class="dropdown5">
+                    <a class="navthing" id="navthing5" href=#contacthome>Contact</a>
+                </li>
+            </div>
+        </nav>
+        <div class="logo">
+            <div class="logobox">
+                <img src="LOGOMAIN.png" alt="Logo">
+                <h1 class="firstline">Leading Glow Sign Board Company in Bihar Since 2006</h1>
+                <h2>Professional, Creative, Flexible and Instant</h2>
+                <div class="buttonslogo">
+                    <a href="tel:+919852559968">
+                        <button class="logocall">Contact Us</button>
+                    </a>
+                    <a href="/orderrequest">
+                        <button class="logoonline">Book Online</button>
+                    </a>
+                    <a href=#services>
+                        <button class="logoservices">Explore Services</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop id="myMainVideo">
+            <source src="mainvideo.mp4" type="video/mp4">
+        </video>
+    </header>
+
+    <section class="welcome">
+        <h1>Welcome to Uttam Glow Sign</h1>
+        <div class="welcomebox" id="welcomebox">
+            <h2 id="whatwedoinfo">What We Do?</h2>
+            <button class="knowaboutinfohome" id="knowaboutinfohome">CLICK</button>
+        </div>
+        <!-- h2 isliye rakhe kyuki upar bhi h1 tha isliye warna css me do h1 se confusion hogaya tha. -->
+    </section>
+
+    <section class="serviceshome" id="services">
+        <div class="servicebox" id="servicebox">
+            <h1>Services</h1>
+            <div class="servicebox2" id="servicebox2">
+                <div id="sbbox1" class="sbbox1" data-aos="slide-right" data-aos-offset="-500" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox2" class="sbbox2" data-aos="slide-right" data-aos-offset="-400" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox3" class="sbbox3" data-aos="slide-right" data-aos-offset="-300" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox4" class="sbbox4" data-aos="slide-right" data-aos-offset="-200" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox5" class="sbbox5" data-aos="slide-right" data-aos-offset="-100" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projecthome" id="project">
+        <div class="pbox" id="pbox">
+            <h1>Our Projects</h1>
+            <div class="pbox2" id="pbox2">
+                <div id="sbbox1x" class="sbbox1x" data-aos="slide-up" data-aos-offset="-200" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox2x" class="sbbox2x" data-aos="slide-down" data-aos-offset="-200" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox3x" class="sbbox3x" data-aos="slide-up" data-aos-offset="-200" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox4x" class="sbbox4x" data-aos="slide-down" data-aos-offset="-200" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox5x" class="sbbox5x" data-aos="slide-up" data-aos-offset="-200" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviewscreen" id="reviewscreen">
+        <div id="reviewhomebox">
+            <div class="reviewperson" id="review1">
+                <h1 class="reviewname" id="reviewName1"></h1>
+                <div id="starsRate1">
+                </div>
+                <p class="reviewcomment" id="review1comment1"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="shophome" id="buy">
+        <div class="pboxy" id="pboxy">
+            <h1>Our Products</h1>
+            <div class="pbox2y" id="pbox2y">
+                <div id="sbbox1xy" class="sbbox1xy" data-aos="flip-up" data-aos-offset="-500" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox2xy" class="sbbox2xy" data-aos="flip-down" data-aos-offset="-400" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox3xy" class="sbbox3xy" data-aos="flip-up" data-aos-offset="-300" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox4xy" class="sbbox4xy" data-aos="flip-down" data-aos-offset="-200" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+                <div id="sbbox5xy" class="sbbox5xy" data-aos="flip-up" data-aos-offset="-100" data-aos-delay="0"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false"
+                    data-aos-anchor-placement="top-center">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacthome" id="contacthome">
+        <div class="contactdetails" id="contactdetails">
+            <img id="contactlogo" src="LOGOMAIN.png" alt="Logo">
+            <p id="contactaddress">Govind Market, Opposite M.B.D. Building, Naya Tola, Bhikhana Pahari</p>
+            <p id="contactphone"></p>
+            <p id="contactemail">uttamglow.10@gmail.com</p>
+            <div id="socialHandlesx">
+                <a id="facebookhandlex" href="https://www.facebook.com/rebelliousdreamer.rd" target="_blank"><img
+                        class="handlesx" id="facebookhandleimagex" src="facebook.png" alt="facebook"></a>
+                <a id="instahandlex" href="https://www.instagram.com/rebelliousdreamer01" target="_blank"><img
+                        class="handlesx" id="instahandleimagex" src="instagram.png" alt="instagram"></a>
+
+            </div>
+            <p class="crcontent" id="crcontent">
+                © 2006 - 2021 Uttam Glow Sign. All Rights Reserved.
+            </p>
+        </div>
+    </section>
+    <!-- <section class="copyrightsec" id="copyrightsec">
+        <div class="crcontent" id="crcontent">
+            © 2006 Uttam Glow Sign. All Rights Reserved.
+        </div>
+    </section> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+    <script src="ugbrain.js"></script>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

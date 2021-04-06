@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttam Glow Sign - Request Order</title>
+    <link rel="stylesheet" href="orderrequest.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-storage.js"></script>
+</head>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div id="body2">
+    <header>
+        <nav class="navbar">
+            <div class="navlist">
+                <li class="dropdown1">
+                    <a class="navthing" id="navthing1" href='/'>Home</a>
+                    <div class="dropdown-content1">
+                        <a href="/signageboard">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="dropdown2">
+                    <a class="navthing" id="navthing2" >Services</a>
+                    <div class="dropdown-content2">
+                        <a href="/signageboard">Signage Boards</a>
+                        <a href="/branding">Branding</a>
+                        <a href="/ad">Advertising For You</a>
+                        <a href="/printing">Printing</a>
+                        <a href="/customprinting">Customize Printing</a>
+                    </div>
+                </li>
+                <li class="dropdown3">
+                    <a class="navthing" id="navthing3">Projects</a>
+                    <div class="dropdown-content3">
+                        <a href="/signageboardproject">Signage Boards</a>
+                        <a href="/brandingproject">Branding</a>
+                        <a href="/adproject">Advertising For You</a>
+                        <a href="/printingproject">Printing</a>
+                        <a href="/customprintingproject">Customize Printing</a>
+                    </div>
+                </li>
+                <li class="dropdown4">
+                    <a class="navthing" id="navthing4">Shop</a>
+                    <!-- <div class="dropdown-content4">
+                        <a href="#">Signage Boards</a>
+                        <a href="#">Branding</a>
+                        <a href="#">Advertising For You</a>
+                        <a href="#">Printing</a>
+                        <a href="#">Customize Printing</a>
+                    </div> -->
+                </li>
+                <li class="dropdown5">
+                    <a class="navthing" id="navthing5" href=#contacthome>Contact</a>
+                </li>
+            </div>
+            <div class="logonav">
+                <img src="LOGOMAIN.png" alt="Logo">
+            </div>
+        </nav>
+    </header>
+    <section class="shopsec" id="shop">
+        <div class="shopbox" id="shopbox">
+            <h1 class="shopheading">Request Order</h1>
+            <div class="homebookdetail" id="homebookdetail">
+                <img id="sellbook" loading="lazy" src="" alt="Latest Book">
+                <div class="hireform" id="hireform">
+                    <input type="name" id="clientname" placeholder="Name">
+                    <input type="email" id="clientemail" placeholder="Email Address">
+                    <input type="number" id="clientnumber" placeholder="Phone Number">
+                    <!-- <input type="text" name="clienttext" id="clienttext" placeholder="Purpose For Hiring"> -->
+                    <textarea id="clienttext" cols="30" rows="10" placeholder="Purpose"></textarea>
+                    <button id="hiresubmitshop" class="hiresubmitshop">BUY NOW</button>
+                    <p class="thankyoumessage1" id="thankyoumessage1"></p>
+                    <p class="thankyoumessage2" id="thankyoumessage2"></p>
+                </div>
+                <!-- shopnowhome pura hamesa server se update wala chiz hai -->
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <section class="contacthome" id="contacthome">
+        <div class="contactdetails" id="contactdetails">
+            <img id="contactlogo" src="LOGOMAIN.png" alt="Logo">
+            <p id="contactaddress">Govind Market, Opposite M.B.D. Building, Naya Tola, Bhikhana Pahari</p>
+            <p id="contactphone"></p>
+            <p id="contactemail">uttamglow.10@gmail.com</p>
+            <div id="socialHandlesx">
+                <a id="facebookhandlex" href="https://www.facebook.com/rebelliousdreamer.rd" target="_blank"><img
+                        class="handlesx" id="facebookhandleimagex" src="facebook.png" alt="facebook"></a>
+                <a id="instahandlex" href="https://www.instagram.com/rebelliousdreamer01" target="_blank"><img
+                        class="handlesx" id="instahandleimagex" src="instagram.png" alt="instagram"></a>
+
+            </div>
+            <p class="crcontent" id="crcontent">
+                © 2006 - 2021 Uttam Glow Sign. All Rights Reserved.
+            </p>
+        </div>
+    </section>
+
+    <script src="orderrequest.js"></script>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>
