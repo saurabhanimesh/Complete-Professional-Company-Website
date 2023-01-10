@@ -14,7 +14,7 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
-    "firebase-admin": "^9.2.0",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.11.0",
     "nodemon": "^2.0.7"
   },
